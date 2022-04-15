@@ -24,7 +24,7 @@
   
  ### Third Question- Correct Product Prices in the correct format (eg: $56) wherever possible and separate them into currency and value columns. 
   
-    First of all we have defined a function which will work to remove the currency symbol and convert the price_string value to float. After that we will directly convert back the float value to currency and due to this we got the corrected format of currency(eg- $58) in every row . Now we'll use the part where we converted the string to float to create a new column which will only hold the values of the price and then as we know that the currency is only '$' so we'll directly add one more column for the currency and then we'll delete the price_string .
+  First of all we have defined a function which will work to remove the currency symbol and convert the price_string value to float. After that we will directly convert back the float value to currency and due to this we got the corrected format of currency(eg- $58) in every row . Now we'll use the part where we converted the string to float to create a new column which will only hold the values of the price and then as we know that the currency is only '$' so we'll directly add one more column for the currency and then we'll delete the price_string .
     
 ### Fourth Question - List out the categories with average price of product. 
 
